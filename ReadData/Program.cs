@@ -46,6 +46,7 @@ namespace ReadData
                 }
 
                 Console.WriteLine("Sonuç: " + toplam);
+                Console.ReadLine();
             }
         }
     }

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firstConsole", "firstConsol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadData", "ReadData\ReadData.csproj", "{9B183CAB-F177-4FD8-A761-870679335C80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadData2", "ReadData2\ReadData2.csproj", "{39540C69-7F82-4697-9E4A-34C7CD6242CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9B183CAB-F177-4FD8-A761-870679335C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B183CAB-F177-4FD8-A761-870679335C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B183CAB-F177-4FD8-A761-870679335C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39540C69-7F82-4697-9E4A-34C7CD6242CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39540C69-7F82-4697-9E4A-34C7CD6242CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39540C69-7F82-4697-9E4A-34C7CD6242CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39540C69-7F82-4697-9E4A-34C7CD6242CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
