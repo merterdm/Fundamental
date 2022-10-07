@@ -19,6 +19,8 @@
             ////Console.WriteLine("Girilen Sayılar {0} ve {1}", sayi1,sayi2);
             //Console.WriteLine($"Girilen Sayılar {sayi1} ve {sayi2}");
             ////Console.WriteLine("Girilen Sayılar " + sayi1 + " ve " + sayi2); 
+            ///
+
             #endregion
 
             #region Aritmatik Islemler
