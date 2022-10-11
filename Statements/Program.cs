@@ -312,42 +312,192 @@
             #endregion
 
             #region Soru 3
-            Console.WriteLine("Kullanıcı adını giriniz: ");
-            string username = Console.ReadLine();
-            Console.WriteLine("Şifre giriniz");
-            string psw = Console.ReadLine();
+            //Console.WriteLine("Kullanıcı adını giriniz: ");
+            //string username = Console.ReadLine();
+            //Console.WriteLine("Şifre giriniz");
+            //string psw = Console.ReadLine();
 
-            switch (username)
-            {
-                case "admin":
-                    switch (psw)
-                    {
-                        case "123":
-                            Console.WriteLine("Tebrikler! Kullanıcı adı ve şifre doğru...");
-                            break;
-                        default:
-                            Console.WriteLine("Kullanıcı adı doğru fakat şifre yanlış.");
-                            break;
-                    }
-                    break;
-                default:
-                    Console.WriteLine("Kullanıcı adınız yanlış. Şifreye bakmaya gerek bile yok!");
-                    break;
-            }
-
-
-            #endregion
-
-            #endregion
-
-
-
-
+            //switch (username)
+            //{
+            //    case "admin":
+            //        switch (psw)
+            //        {
+            //            case "123":
+            //                Console.WriteLine("Tebrikler! Kullanıcı adı ve şifre doğru...");
+            //                break;
+            //            default:
+            //                Console.WriteLine("Kullanıcı adı doğru fakat şifre yanlış.");
+            //                break;
+            //        }
+            //        break;
+            //    default:
+            //        Console.WriteLine("Kullanıcı adınız yanlış. Şifreye bakmaya gerek bile yok!");
+            //        break;
+            //}
 
 
             #endregion
 
+            #endregion
 
+
+            #endregion
+
+            #region Arrays
+            //int[] sayilar = new int[3];
+            //sayilar[0] = 1;
+            //sayilar[1] = 2;
+            //sayilar[2] = 3;
+
+            //string[] sehirler = { "Adana", "Ankara", "İstanbul" };
+            //double[] alfabe = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //---------------------------------------------------------
+            //Console.WriteLine("Dizi boyutunu giriniz: ");
+            //int boyut = Convert.ToInt32(Console.ReadLine());          
+            //int[] sayilar = new int[boyut];
+
+            //int index = 0;
+            //Random random = new Random();
+            //while (index < boyut)
+            //{
+
+            //    sayilar[index] = random.Next();
+            //    index ++;
+            //}
+
+            //index = 0;
+            //do
+            //{
+            //    Console.WriteLine(sayilar[index]);
+            //    index++;
+            //} while (index<boyut);
+
+            //for (int i = 0; i < sayilar.Length; i++)
+            //{
+            //    Console.WriteLine(sayilar[i]);
+
+            //}
+
+            #region Soru 1
+            //0-100 arasında 50 elemanlı bir dizinin ort,vs...
+
+            //Random random = new Random();
+
+            //int[] sayilar2 = new int[50];
+            //int cift = 0, tek = 0, toplam = 0, tekToplam = 0, ciftToplam = 0;
+            //float ort;
+
+            //Console.WriteLine("Dizideki tek elemanlar: ");
+            //Console.WriteLine("-------------------------");
+            //for (int i = 0; i < sayilar2.Length; i++)
+            //{
+            //    sayilar2[i] = random.Next(1, 100);
+            //    toplam = toplam + sayilar2[i];
+            //}
+
+
+            //for (int i = 0; i < sayilar2.Length; i++)
+            //{
+            //    if (sayilar2[i] % 2 == 0)
+            //    {
+            //        cift++;
+            //        ciftToplam = ciftToplam + sayilar2[i];
+            //    }
+            //    else
+            //    {
+            //        tek++;
+            //        tekToplam = tekToplam + sayilar2[i];
+            //    }
+            //}
+
+            //for (int i = 0; i < sayilar2.Length; i++)
+            //{
+            //    Console.WriteLine(sayilar2[i]);
+            //}
+            //ort = toplam / 50.0f;
+
+            //Console.WriteLine("Dizideki tek eleman sayısı: " + tek);
+            //Console.WriteLine("Dizideki çift eleman sayısı: " + cift);
+            //Console.WriteLine("Dizideki sayıların ortalaması: " + ort);
+            //Console.WriteLine("Dizideki tek sayıların toplamı: " + tekToplam + " / " + "Dizideki çift sayıların toplamı: " + ciftToplam);
+            //Console.ReadLine(); 
+            #endregion
+
+            #region Soru 2
+            //Ekrandan okutulan sayısın faktöriyeli
+            //Console.WriteLine("Sayı Giriniz: ");
+            //int sayi = int.Parse(Console.ReadLine());
+            //int sonuc = 1;
+            //for (int i = sayi; i > 1; i--)
+            //{
+            //    sonuc *= i;
+            //}
+            //Console.WriteLine($"Girilen {sayi} nın faktöriyeli {sonuc} tur");
+            #endregion
+
+            #region Soru 3
+
+            //int tekToplam = 0, ciftToplam = 0;
+
+            //while (true)
+            //{
+            //    Console.WriteLine("Sayı Giriniz: ");
+            //    int sayi = int.Parse(Console.ReadLine());
+            //    if (sayi == 0) {
+            //        break;
+            //    }
+            //    else
+            //        if (sayi % 2 == 0){
+            //            ciftToplam++;
+            //        }
+            //        else
+            //            tekToplam++;
+            //}
+            #endregion
+
+            #region MyRegion
+            //int tahminHakki = 10, tutulanSayi = 1, tahmin = 0, sayac = 0;
+            //Random r = new Random();
+            //tutulanSayi = r.Next(1,50);
+
+            //do
+            //{
+            //    sayac++;
+
+            //    Console.WriteLine($"{tahminHakki}. Tahmini Giriniz: ");
+            //    tahmin =int.Parse( Console.ReadLine() );
+            //    if (tahmin < tutulanSayi)
+            //    {
+            //        Console.WriteLine("Büyütün");
+            //        tahminHakki--;
+            //    }
+            //    else if(tahmin > tutulanSayi)
+            //    {
+            //        Console.WriteLine("Küçültün");
+            //        tahminHakki--;
+            //    }
+            //    else
+            //        Console.WriteLine($"Tebrikler {sayac}. denemede buldunuz.);
+            //} while (tahmin != tutulanSayi);
+
+            //-----------------------------------------------------
+            //int tahminHakki = 10, tutulanSayi = 1, tahmin = 0, sayac = 0;
+            //Random r = new Random();
+            //tutulanSayi = r.Next(1, 50);
+
+            //for (int i = 1; i < 101; i++)
+            //{
+            //    for (int j = 1; j < 101; j++)
+            //    {
+            //        Console.WriteLine($"{i} x {j} = {i * j}");
+            //    }
+            //    Console.WriteLine("----------------------------");
+            //}
+
+            #endregion
+
+            #endregion
 
         }
     }

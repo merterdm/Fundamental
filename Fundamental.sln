@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadData2", "ReadData2\Read
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpHanling", "ExpHanling\ExpHanling.csproj", "{0B4DD888-C802-4ABD-931A-615D56327904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statements", "Statements\Statements.csproj", "{657BE390-0ADE-475F-8BB5-5F1B2AFC2C10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statements", "Statements\Statements.csproj", "{657BE390-0ADE-475F-8BB5-5F1B2AFC2C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrListOrn", "ArrListÖrn\ArrListOrn.csproj", "{C753D03D-3EB7-4F8B-AD83-E4F932B79988}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{657BE390-0ADE-475F-8BB5-5F1B2AFC2C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{657BE390-0ADE-475F-8BB5-5F1B2AFC2C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{657BE390-0ADE-475F-8BB5-5F1B2AFC2C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C753D03D-3EB7-4F8B-AD83-E4F932B79988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C753D03D-3EB7-4F8B-AD83-E4F932B79988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C753D03D-3EB7-4F8B-AD83-E4F932B79988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C753D03D-3EB7-4F8B-AD83-E4F932B79988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
