@@ -48,60 +48,60 @@ namespace ArrListOrn
             //}
             Ogrenci ogrenci = new Ogrenci();
 
-            int sayac = 0;
-            int a = 0;  
-            while (true)
-            {
+        //    int sayac = 0;
+        //    int a = 0;  
+        //    while (true)
+        //    {
 
-            }
-            Console.WriteLine("1- Öğrenci Kayıt");
-            Console.WriteLine("2- Öğrenci Listesi");
-            Console.WriteLine("1- Çıkış");
+        //    }
+        //    Console.WriteLine("1- Öğrenci Kayıt");
+        //    Console.WriteLine("2- Öğrenci Listesi");
+        //    Console.WriteLine("1- Çıkış");
             
-            string secim = Console.ReadLine();  
-            List<string> adList = new List<string>();
-            List<string> soyadList = new List<string>();        
-            List<string> tcList = new List<string>();        
-            List<string> genderList = new List<string>();        
-            List<string> birthList = new List<string>();        
-            switch (secim)
-            {
-                case "1":
-                    {
-                        Console.WriteLine("Adınızı Giriniz.");
-                        string ad = Console.ReadLine();
-                        Console.WriteLine("Soyadınızı Giriniz.");
-                        string soyAd = Console.ReadLine();
-                        Console.WriteLine("Tc No Giriniz.");
-                        string tc = Console.ReadLine();
-                        Console.WriteLine("Cinsiyetinizi Giriniz.");
-                        string cinsiyet = Console.ReadLine();
-                        Console.WriteLine("Doğum Tarihinizi Giriniz.");
-                        string birth = Console.ReadLine();
+        //    string secim = Console.ReadLine();  
+        //    List<string> adList = new List<string>();
+        //    List<string> soyadList = new List<string>();        
+        //    List<string> tcList = new List<string>();        
+        //    List<string> genderList = new List<string>();        
+        //    List<string> birthList = new List<string>();        
+        //    switch (secim)
+        //    {
+        //        case "1":
+        //            {
+        //                Console.WriteLine("Adınızı Giriniz.");
+        //                string ad = Console.ReadLine();
+        //                Console.WriteLine("Soyadınızı Giriniz.");
+        //                string soyAd = Console.ReadLine();
+        //                Console.WriteLine("Tc No Giriniz.");
+        //                string tc = Console.ReadLine();
+        //                Console.WriteLine("Cinsiyetinizi Giriniz.");
+        //                string cinsiyet = Console.ReadLine();
+        //                Console.WriteLine("Doğum Tarihinizi Giriniz.");
+        //                string birth = Console.ReadLine();
                         
-                        adList.Add(ad);
-                        soyadList.Add(soyAd);
-                        tcList.Add(tc);
-                        genderList.Add(cinsiyet);
-                        birthList.Add(birth);
-                    }
-                    break;
-            case "2":
-                    {
-                        for (int i = 0; i < length; i++)
-                        {
+        //                adList.Add(ad);
+        //                soyadList.Add(soyAd);
+        //                tcList.Add(tc);
+        //                genderList.Add(cinsiyet);
+        //                birthList.Add(birth);
+        //            }
+        //            break;
+        //    case "2":
+        //            {
+        //                for (int i = 0; i < length; i++)
+        //                {
 
-                        }
-                    }
-                    break;
-            case "3":
-                    {
+        //                }
+        //            }
+        //            break;
+        //    case "3":
+        //            {
 
-                    }
-                    break;
-                default:
-                    break;
-            }
+        //            }
+        //            break;
+        //        default:
+        //            break;
+        //    }
 
 
         }

@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpHanling", "ExpHanling\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statements", "Statements\Statements.csproj", "{657BE390-0ADE-475F-8BB5-5F1B2AFC2C10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrListOrn", "ArrListÖrn\ArrListOrn.csproj", "{C753D03D-3EB7-4F8B-AD83-E4F932B79988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrListOrn", "ArrListÖrn\ArrListOrn.csproj", "{C753D03D-3EB7-4F8B-AD83-E4F932B79988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek", "AracEkle\Ornek.csproj", "{7C29657C-6C19-4176-9342-C69AA22B9EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOrnek", "MethodOrnek\MethodOrnek.csproj", "{1F00EDD3-C300-4F96-BFA3-1825151B8B46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{C753D03D-3EB7-4F8B-AD83-E4F932B79988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C753D03D-3EB7-4F8B-AD83-E4F932B79988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C753D03D-3EB7-4F8B-AD83-E4F932B79988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C29657C-6C19-4176-9342-C69AA22B9EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C29657C-6C19-4176-9342-C69AA22B9EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C29657C-6C19-4176-9342-C69AA22B9EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C29657C-6C19-4176-9342-C69AA22B9EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F00EDD3-C300-4F96-BFA3-1825151B8B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F00EDD3-C300-4F96-BFA3-1825151B8B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F00EDD3-C300-4F96-BFA3-1825151B8B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F00EDD3-C300-4F96-BFA3-1825151B8B46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
