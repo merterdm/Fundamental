@@ -74,8 +74,57 @@
 
         }
 
-        static string 
+        static bool Login(string username, string password)
+        {
+            if (username == "admin" && password == "123")
+                return true;
+            else
+                return false;
+        }
 
+        static string YeniKod(string code)
+        {
+            string number = "";
+            foreach (char item in code)
+            {
+                if (char.IsDigit(item))
+                {
+                    number += item;
+                }
+                else
+                    number = "";
+            }
+            if (number == "")
+            {
+                number = "1";
+            }
+            else
+            {
+                number = (int.Parse(number) + 1).ToString();
+            }
+            var newNumber = number; 
+            var fark = code.Length-(number.Length-(newNumber.Length-number.Length));
+
+            if (fark < 0)
+            {
+                fark = 0;
+            }
+            var newCode = code.Substring(0, fark);
+            newCode += newNumber;
+
+            return newCode;
+        }
+
+        static int Topla(int a params int[] sayilar)
+        {
+            int toplam = a;
+            for (int i = 0; i < sayilar.Length; i++)
+            {
+                toplam += sayilar[i];
+            }
+            return toplam;
+
+        }
     }
 
 }

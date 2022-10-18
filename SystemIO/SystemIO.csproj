@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="Nuhet_Ornegi\Nuget_Ornegi.csproj" />
-    <None Include="Nuhet_Ornegi\Nuget_Ornegi.csproj.user" />
-  </ItemGroup>
-
 </Project>
